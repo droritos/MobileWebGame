@@ -2,7 +2,7 @@
 // main.js — Phaser 3 Game Entry Point
 // Project Ink-Flip
 // ============================================================
-import Phaser from 'https://cdn.jsdelivr.net/npm/phaser@3.87.0/dist/phaser.esm.js';
+import Phaser from 'phaser';
 
 import BootScene from './scenes/BootScene.js';
 import PreloadScene from './scenes/PreloadScene.js';

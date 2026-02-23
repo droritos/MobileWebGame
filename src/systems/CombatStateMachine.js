@@ -1,6 +1,8 @@
 // ============================================================
 // CombatStateMachine.js — Turns, phases, and state management
 // ============================================================
+import Phaser from 'phaser';
+
 export const STATES = {
     IDLE: 'IDLE',
     STRATEGY: 'STATE_STRATEGY',

@@ -1,6 +1,8 @@
 // ============================================================
 // ParrySystem.js — Timing window detection and splash trigger
 // ============================================================
+import Phaser from 'phaser';
+
 import { PARRY_WINDOW_MS } from '../config.js';
 
 export default class ParrySystem extends Phaser.Events.EventEmitter {
